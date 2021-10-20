@@ -10,6 +10,14 @@
             border: solid black;
         }
 
+        #target {
+            height: 300px;
+            width: 300px;
+            border: 10px solid forestgreen;
+            margin-top: 10px;
+            margin-left: 40%;
+        }
+
         h1 {
             text-align: center;
             font-size: 50px;
@@ -35,9 +43,15 @@
             font-size: 50px
         }
 
+        h6 {
+            text-align: center;
+            font-size: 50px
+        }
+
         li {
             font-size: 30px;
             list-style: disc;
+            margin-left: 20px;
         }
 
         .one {
@@ -79,6 +93,33 @@
             padding: 10px;
             border: 5px double lightcoral;
         }
+
+        .six {
+            height: 900px;
+            width: 1480px;
+            background: firebrick;
+            padding: 10px;
+            border: 5px double lightcoral;
+        }
+
+        .benefits-1 {
+            font-size: 20px;
+            color: firebrick;
+            border: 10px dotted cornflowerblue;
+        }
+
+        tr:nth-child(2n-1) {
+            background: orangered;
+        }
+
+        table {
+            margin-top: 50px;
+            border: 10px solid darkmagenta;
+        }
+        a:visited{
+        color: black;
+        }
+
     </style>
 </head>
 <body>
@@ -96,8 +137,10 @@
         taste, his command of form, and his range of expression have made him seem the most universal of all composers;
         yet,
         it may also be said that his music was written to accommodate the specific tastes of particular audiences.</p>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Wolfgang-amadeus-mozart_1-revert.jpg/1200px-Wolfgang-amadeus-mozart_1-revert.jpg"
-         alt="Photo of Mozart"></div>
+    <p text align="center"><img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Wolfgang-amadeus-mozart_1-revert.jpg/1200px-Wolfgang-amadeus-mozart_1-revert.jpg"
+            alt="Photo of Mozart"></div>
+
 <div class="two"><h2>Early life and works</h2>
     <p>Mozart most commonly called himself Wolfgang Amade or Wolfgang Gottlieb. His father, Leopold, came from
         a family of
@@ -162,13 +205,56 @@
     <img src="https://lyricstranslate.com/files/styles/large/public/mozart.jpg?itok=J7GGE0ys" alt="Portrait of Mozart">
 </div>
 <div class="five">
-<h5>Symphonies of Mozart</h5>
-<ul>
-    <li>Childhood symphonies (1764–1771)</li>
-    <li>Salzburg-era symphonies (1771–1777))</li>
-    <li>Late symphonies (1778–1788)</li>
-</ul>
-<img src="https://d1iiivw74516uk.cloudfront.net/eyJidWNrZXQiOiJwcmVzdG8tY292ZXItaW1hZ2VzIiwia2V5IjoiNzk5NjQ1OS4xLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6OTAwfSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInRvRm9ybWF0IjoianBlZyJ9LCJ0aW1lc3RhbXAiOjE0MDE5ODI1NDl9"
-     alt="Symphonies of Mozart"></div>
+    <h5>Symphonies of Mozart</h5>
+    <ul class="benefits-1">
+        <li>Childhood symphonies (1764–1771)</li>
+        <li>Salzburg-era symphonies (1771–1777))</li>
+        <li>Late symphonies (1778–1788)</li>
+    </ul>
+    <img src="https://d1iiivw74516uk.cloudfront.net/eyJidWNrZXQiOiJwcmVzdG8tY292ZXItaW1hZ2VzIiwia2V5IjoiNzk5NjQ1OS4xLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6OTAwfSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInRvRm9ybWF0IjoianBlZyJ9LCJ0aW1lc3RhbXAiOjE0MDE5ODI1NDl9"
+         alt="Symphonies of Mozart"></div>
+<div class="six">
+    <h6>The questions about Mozzart</h6>
+    <form>
+        <input placeholder="Age of Mozart" type="number">
+        <input placeholder="The first book of Mozart" type="text">
+        <input placeholder="The last symphonies of Mozart" type="text">
+        <label> male
+            <input type="radio" value="male">
+        </label>
+        <label> female
+            <input type="radio" value="female">
+        </label>
+        <label>
+            was married
+            <input type="checkbox">
+        </label>
+        <button>confirm</button>
+    </form>
+    <table>
+        <tr>
+            <td>Notes</td>
+            <td>Notes</td>
+            <td>Notes</td>
+        </tr>
+        <tr>
+            <td>Music</td>
+            <td>Music</td>
+            <td>Music</td>
+        </tr>
+        <tr>
+            <td>Symphonies</td>
+            <td>Symphonies</td>
+            <td>Symphonies</td>
+        </tr>
+    </table>
+    <img id="target" src="https://e7.pngegg.com/pngimages/223/101/png-clipart-question-mark-question-mark-thumbnail.png"
+         alt="question">
+    <ul>
+         <li><a href="https://en.wikipedia.org">wiki about Mozart</a></li>
+    <li><a href="https://www.britannica.com">The website about Mozart's life</a></li>
+    <li> <a href="https://www.biography.com">The biography about Mozart</a></li>
+    </ul>
+</div>
 </body>
 </html>
